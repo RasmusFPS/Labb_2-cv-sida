@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Rasmus Andersen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbaren -->
+    <div class="nav">
+      <h1>Rasmus Andersen</h1>
+      <h2 class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="cv.html">Cv</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="Lorem.html">Lorem</a>
+      </h2>
+    </div>
+
+<div class="portfolio-section">
+  <h1>My GitHub Projects</h1>
+  
+  <div id="loading-indicator" class="loading-indicator">
+    <p>Loading projects from GitHub...</p>
+    <div class="spinner"></div> 
+  </div>
+
+  <div id="projects-container" class="projects-container"></div>
+</div>
+
+    <!-- Footer -->
+    <footer class="bar">
+      <div class="lower-navbar">
+        <p class="copyright">
+          © 2026 Rasmus Andersen, Varberg |
+          <a href="https://github.com/RasmusFPS">Github</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="fetch.js"></script>
+  </body>
+</html>

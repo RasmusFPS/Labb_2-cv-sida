@@ -1,0 +1,20 @@
+{
+  "education": [
+    {
+      "title": "GameDevelopment",
+      "school": "LBS Varberg",
+      "length": "3 years"
+    },
+    {
+      "title": "Software Enginering",
+      "scool": "Campus Varberg",
+      "length": "2 years"
+    }
+  ],
+  "work": [
+    {
+      "company": "Gekås Macka och jos",
+      "date": "2024"
+    }
+  ]
+}
