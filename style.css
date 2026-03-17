@@ -398,7 +398,7 @@ margin-bottom: 80px;
     left: 0;
     width: 100vw; 
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: black;
     z-index: 10000; 
     justify-content: center;
     align-items: center;
