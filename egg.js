@@ -11,7 +11,9 @@ if(easterTrigger) {
 let keys = "";
 
 window.addEventListener("keydown", (event) => {
-    keys += event.key;
+    keys += event.key.toLowerCase();
+
+    console.log(keys);
 
     if(keys == "react"){
         showModala();
