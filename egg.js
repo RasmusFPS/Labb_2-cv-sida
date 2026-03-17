@@ -1,9 +1,9 @@
-const easterTrigger = document.getElementById("easter-trigger");
+const easterTrigger = document.getElementById("trigger");
 
 if(easterTrigger) {
     easterTrigger.addEventListener("click", () => {
 
-    document.body.classList.toggle('LightMode');
+    document.body.classList.toggle('CrazyMode');
     console.log("background toggled");
 });
 }
@@ -13,11 +13,11 @@ let keys = "";
 window.addEventListener("keydown", (event) => {
     keys += event.key;
 
-    if(keys == "1337"){
+    if(keys == "react"){
         showModala();
         keys = "";
     }
-    else if(keys.length > 4) {
+    else if(keys.length >= 5) {
         keys = "";
     }
 });
@@ -25,8 +25,9 @@ window.addEventListener("keydown", (event) => {
 function showModala() {
     const modal = document.getElementById("easter-modal");
     modal.classList.remove("modal-hidden");
-}
 
-document.getElementById("close-modal").addEventListener("click", () => {
-    document.getElementById("easter-modal").classList.add("modal-hidden");
-});
+setTimeout(() => {
+modal.classList.add("modal-hidden");
+}, 1500);
+
+}
